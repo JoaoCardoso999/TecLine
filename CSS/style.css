@@ -1,0 +1,53 @@
+/* ESTILO DE TODAS AS PÁGINAS */
+
+/* Estilo do cabeçalho*/
+.header{    
+background-color:#18CDC4;
+padding: 10px 20px;
+align-items: center;
+display: flex;
+justify-content: space-between;
+}
+
+/* Configurando a logo do site */
+.logo{
+display: flex;
+align-items: center;
+color: white;
+font-size: 18px; /* Tamanho da fonte do texto*/
+font-weight: bold; /* Texto em negrito*/
+}
+
+.logo img{
+ width: 100px; /* Tamanho */
+ margin-right: 10px; /*  Margens */
+}
+
+/* Configuração da barra de pesquisa */
+.seach-box{
+ flex: 1;
+ max-width: 600px; /* Largura máxima */
+ margin: 0 20px; /* Margem superior e lateral */
+ position: relative; /* Posição */
+}
+
+.seach-box input{ /* Configuração da parte de dentro */
+ width: 100%; /* Preencher toda a área */
+ padding: 10px 40px 10px 15px; /* Definindo o espaço cima, direita, baixo, esquerda*/
+ border-radius: 20px; /* Borda da caixa */
+ font-size: 16px; 
+}
+
+/* Configurando os icones do menu superior */
+.icons{
+    display: flex; /*  Os icones ficam flexiveis com a mudança da tela */
+    gap: 15px; /*  Espaco entre os icones */
+    align-items: center; /*  Centraliza os icones no meio do menu */
+    margin-right: 20px; /*  Da um espaco do icone com a borda lateral do menu  */
+}
+
+.icons img{ /*  Configurando as imagens dos icones */
+  width: 32px;
+  height: 32px;
+  cursor: pointer; /*  Margens */
+}
