@@ -51,3 +51,69 @@ font-weight: bold; /* Texto em negrito*/
   height: 32px;
   cursor: pointer; /*  Margens */
 }
+
+/* Inicio do Formulário de Cadastro ----------------------- */
+body {
+  background-color: #20c9c9; /* fundo azul esverdeado */
+}
+
+.cadastro-card {
+  max-width: 600px;
+  width: 100%;
+  background-color: #b2ebf2; /* fundo mais claro do card */
+}
+
+.cadastro-card h3 {
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-warning {
+  border-radius: 10px;
+}
+/* Fim do Formulário de Cadastro -------------------------- */
+
+/* Inicio da Tela de Login ------------------------------- */
+body {
+  background-color: #20c9c9; /* mesmo fundo da tela de cadastro */
+}
+
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  background-color: #b2ebf2; /* fundo mais claro do card */
+}
+
+.login-card h3 {
+  font-weight: bold;
+  color: #000;
+}
+
+.btn-warning {
+  border-radius: 10px;
+}
+/* Fim da Tela de Login ---------------------------------- */
+
+/* Inicio da Tela Home ------------------------------------ */
+.bg-teal {
+  background-color: #20c9c9 !important;
+}
+
+.bg-teal-dark {
+  background-color: #00a5a5 !important;
+}
+
+.navbar .form-control {
+  border-radius: 20px;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  font-weight: 600;
+}
+
+footer h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* Fim da Tela Home --------------------------------------- */
