@@ -18,11 +18,6 @@ font-size: 18px; /* Tamanho da fonte do texto*/
 font-weight: bold; /* Texto em negrito*/
 }
 
-.logo img{
- width: 100px; /* Tamanho */
- margin-right: 10px; /*  Margens */
-}
-
 /* Configuração da barra de pesquisa */
 .seach-box{
  flex: 1;
@@ -75,7 +70,7 @@ body {
 
 /* Inicio da Tela de Login ------------------------------- */
 body {
-  background-color: #20c9c9; /* mesmo fundo da tela de cadastro */
+  background-color: #DADADA; /* mesmo fundo da tela de cadastro */
 }
 
 .login-card {
@@ -117,3 +112,139 @@ footer h6 {
   margin-bottom: 10px;
 }
 /* Fim da Tela Home --------------------------------------- */
+
+/* Inicio do Carrossel ----------------------------------- */
+.carousel-inner img {
+  height: 350px;
+  object-fit: cover;
+}
+/* Fim do Carrossel -------------------------------------- */
+
+/* Inicio do Card de Produto ----------------------------- */
+.produto-detalhado {
+  position: relative;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.produto-detalhado img {
+  height: 180px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* Desconto */
+.desconto {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #00a5a5;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+/* Avaliação */
+.avaliacao {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Nome do produto */
+.produto-nome {
+  font-size: 0.95rem;
+  font-weight: 500;
+  min-height: 48px;
+}
+
+/* Preços */
+.preco-antigo {
+  text-decoration: line-through;
+  color: #888;
+  margin-bottom: 0;
+}
+
+.preco-novo {
+  color: #00a5a5;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.preco-novo .avista {
+  font-size: 0.85rem;
+  font-weight: normal;
+}
+
+.parcelamento {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Botão comprar */
+.btn-comprar {
+  background-color: #00c9c9;
+  color: #fff;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-comprar:hover {
+  background-color: #009999;
+  color: #fff;
+}
+/* Fim do Card de Produto -------------------------------- */
+
+/* Configurando a logo do site */
+.logo-tecline {
+  height: 45px;   /* altura mais equilibrada */
+  width: auto;    /* mantém a proporção */
+  margin-right: 10px; /* espaço do lado direito */
+}
+
+@media (max-width: 768px) {
+  .logo-tecline {
+    height: 35px; /* menor em telas pequenas */
+  }
+}
+
+/* Fim da Logo ------------------------------------------ */
+
+/* Inicio do Cabeçalho ---------------------------------- */
+.bg-tecline {
+  background-color: #00a5a5;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 0.95rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+/* Fim do Cabeçalho ------------------------------------- */
+
+/* Logos das formas de pagamento */
+.pagamento-logo {
+  background-color: #D9D9D9;
+  border-color: #3EA142;
+  border-radius: 10px;
+  border: 2px solid #3EA142 ;
+  height: 50px;   /* aumenta a altura */
+  width: auto;    /* mantém a proporção */
+  margin-right: 10px; /* espaçamento entre elas */
+  margin-top: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.pagamento-logo:hover {
+  transform: scale(1.1); /* efeito hover para destacar */
+}
