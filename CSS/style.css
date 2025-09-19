@@ -33,6 +33,10 @@ font-weight: bold; /* Texto em negrito*/
  font-size: 16px; 
 }
 
+footer {
+  margin-top: 40px; /* espaço acima do rodapé */
+}
+
 /* Configurando os icones do menu superior */
 .icons{
     display: flex; /*  Os icones ficam flexiveis com a mudança da tela */
@@ -55,12 +59,12 @@ body {
 .cadastro-card {
   max-width: 600px;
   width: 100%;
-  background-color: #b2ebf2; /* fundo mais claro do card */
+  background-color: #18CDC4; /* fundo mais claro do card */
 }
 
 .cadastro-card h3 {
   font-weight: bold;
-  color: #000;
+  color: #000;  
 }
 
 .btn-warning {
@@ -76,7 +80,7 @@ body {
 .login-card {
   max-width: 400px;
   width: 100%;
-  background-color: #b2ebf2; /* fundo mais claro do card */
+  background-color: #18CDC4; /* fundo mais claro do card */
 }
 
 .login-card h3 {
@@ -118,6 +122,11 @@ footer h6 {
   height: 350px;
   object-fit: cover;
 }
+
+#carouselHome {
+  margin-top: 30px; /* espaço entre cabeçalho e carrossel */
+}
+
 /* Fim do Carrossel -------------------------------------- */
 
 /* Inicio do Card de Produto ----------------------------- */
@@ -247,4 +256,63 @@ footer h6 {
 
 .pagamento-logo:hover {
   transform: scale(1.1); /* efeito hover para destacar */
+}
+
+/* Inicio da Tela de Perfil ------------------------------- */
+.perfil-card {
+  max-width: 900px;
+  margin: auto;
+  background-color: #b2ebf2; /* mesmo padrão das outras telas */
+  border-radius: 15px;
+}
+
+.perfil-card h3 {
+  font-weight: bold;
+  color: #000;
+}
+
+.perfil-card .form-label {
+  color: #333;
+}
+
+.perfil-card .form-control-plaintext {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.95rem;
+}
+/* Fim da Tela de Perfil ---------------------------------- */
+
+/* Carrinho */
+.card {
+  border-radius: 12px;
+}
+
+.card h5, .card h6 {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #00a5a5;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #008080;
+}
+
+.navbar-nav {
+  display: flex;           /* deixa os itens na horizontal */
+  justify-content: center; /* centraliza no meio */
+  gap: 20px;               /* espaço entre os nomes */
+}
+
+.navbar-nav .nav-item {
+  list-style: none;        /* remove as bolinhas da lista */
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: bold;
 }
