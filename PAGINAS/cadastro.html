@@ -15,7 +15,8 @@
 <div class="container d-flex justify-content-center align-items-center min-vh-100">
   <div class="card cadastro-card p-4 shadow-lg rounded-4">
     <h3 class="text-center mb-4">Crie sua conta pessoal</h3>
-    <form action="" method="post">
+
+    <form action="../PHP/cadastrocliente.php" method="post">
       <div class="row mb-3">
         <div class="col-md-6">
           <label for="nome" class="form-label">Nome</label>
@@ -65,7 +66,7 @@
           <label for="senha2" class="form-label">Digite novamente a Senha</label>
           <div class="input-group">
             <input type="password" class="form-control" id="senha2" name="senhaNovamente" required>
-            <button class="btn btn-outline-secondary toggleSenha" type="button" data-target="senha2">👁</button>
+            <button class="btn btn-outline-secondary toggleSenha" type="button" data-target="senhaNovamente">👁</button>
           </div>
         </div>
       </div>
